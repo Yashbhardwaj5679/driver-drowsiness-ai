@@ -76,29 +76,23 @@ This project uses public datasets for training:
 
 ## 🚀 Getting Started
 
-1. **Clone the repository**
+> 📌 Make sure Python 3.8+ is installed
+
 ```bash
-git clone https://github.com/yourusername/driver-drowsiness-ai.git
-cd driver-drowsiness-ai```
-2. **Create a virtual environment**
-```bash
+# 1. Clone the repo
+git clone https://github.com/YOUR_USERNAME/driver-drowsiness-ai.git
+cd driver-drowsiness-ai
+
+# 2. Create virtual environment
 python -m venv venv
-source venv/bin/activate  # For Windows: venv\Scripts\activate```
-3. Install dependencies
+source venv/bin/activate  # Windows: venv\Scripts\activate
+
+# 3. Install dependencies
 pip install -r requirements.txt
-4. Run the app
+
+# 4. Run the app
 streamlit run app/app.py
-📦 To Do (WIP)
-^^ Add LSTM model for temporal analysis
 
-^^ Build alerting system (sound/email)
-
-^^ Optimize with ONNX or TensorRT
-
-^^ Mobile/Edge support (TFLite/Jetson)
-## 📄 License
-This project is licensed under the MIT License – see the LICENSE file for details.
-
-**💬 Contact**
+**👋 Say Hi!**
 Built with ❤️ by Yash Bhardwaj
 Feel free to reach out via LinkedIn(www.linkedin.com/in/yash-bhardwaj-b28828290 ) or open an issue!
