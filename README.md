@@ -79,10 +79,11 @@ This project uses public datasets for training:
 1. **Clone the repository**
 ```bash
 git clone https://github.com/yourusername/driver-drowsiness-ai.git
-cd driver-drowsiness-ai
+cd driver-drowsiness-ai```
 2. **Create a virtual environment**
+```bash
 python -m venv venv
-source venv/bin/activate  # For Windows: venv\Scripts\activate
+source venv/bin/activate  # For Windows: venv\Scripts\activate```
 3. Install dependencies
 pip install -r requirements.txt
 4. Run the app
